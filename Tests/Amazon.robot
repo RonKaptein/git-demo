@@ -3,6 +3,9 @@ Documentation  This is some basic info about the whole suite
 Resource  ../Resources/Amazon.robot
 Resource  ../Resources/Common.robot
 
+Library Selenium2Library
+
+
 Test Setup Begin Web Test
 Test Teardown End Web Test
 
