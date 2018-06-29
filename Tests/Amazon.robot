@@ -2,9 +2,11 @@
 Documentation  This is some basic info about the whole suite
 Resource  ../Resources/Amazon.robot
 Resource  ../Resources/Common.robot
+Test Setup  Begin Web Test
+Test Teardown   End Web Test
 
 # Copy/paste the below line to Terminal window to execute
-# pybot -d results tests/amazon.robot
+# pybot -d Results tests/amazon.robot
 
 *** Test Cases ***
 Logged out user can search for products
@@ -12,7 +14,7 @@ Logged out user can search for products
     Amazon.Search for Products
 
 Logged out user can view a product
-    [Tags]  Smoke
+    [Tags]  Smoke View
     Amazon.Search for Products
     Amazon.Select Product from Search Results
 
@@ -31,8 +33,8 @@ Logged out user must sign in to check out
     Amazon.Begin Checkout
 
 Feature Test 1
-    Log     Doing feature 1
+    Log     doing feature 1
 
 Feature 2 Test
-     Log     Doing feature 2
+     Log     doing feature 2
 
