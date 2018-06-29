@@ -25,8 +25,7 @@ Logged out user can add product to chart
     Amazon.Select Product from Search Results
     Amazon.Add Product to Cart
 
-Feature Test 1
-    Log     Doing feature 1
+
 
 User must sign in to check out
     [Documentation]  This is some basic info about the test
