@@ -24,11 +24,21 @@ Logged out user can add product to cart
     Amazon.Select Product from Search Results
     Amazon.Add Product to Cart
 
+User must sign in to check out
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke Search Logged
+    Common.Begin Web Test
+    Amazon.Search for products
 Logged out user must sign in to check out
     [Tags]      Smoke   Checkout
     Amazon.Search for Products
     Amazon.Select Product from Search Results
     Amazon.Begin Checkout
+
+
+Feature Test 1
+    Log     Doing feature 1
+
 
 
 
