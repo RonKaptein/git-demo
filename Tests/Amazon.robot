@@ -5,7 +5,6 @@ Resource  ../Resources/Common.robot
 Test Setup  Begin Web Test
 Test Teardown  End Web Test
 
-
 # Copy/paste the below line to Terminal window to execute
 # pybot -d results tests/amazon.robot
 
@@ -25,24 +24,16 @@ Logged out user can add product to chart
     Amazon.Select Product from Search Results
     Amazon.Add Product to Cart
 
-
-
-User must sign in to check out
+Logged out user must sign in to check out
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke Search Logged
-    Common.Begin Web Test
+    [Tags]  Smoke Checkout
     Amazon.Search for products
     Amazon.Select Product from Search Results
     Amazon.Add Product to Cart
     Amazon.Begin Checkout
-    Common.End Web Test
 
-uj bongeeszo
-    Open Browser  www.google.com  chrome
-    sleep  2
-    sleep  1
-    sleep  1
-    Maximize Browser window
+Feature 2 Test
+     Log     doing feature 2
 
 
 
