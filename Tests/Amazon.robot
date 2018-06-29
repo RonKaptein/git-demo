@@ -31,13 +31,10 @@ Logged out user must sign in to check out
     Amazon.Select Product from Search Results
     Amazon.Add Product to Cart
     Amazon.Begin Checkout
-
-Feature 2 Test
-     Log     doing feature 2
-
-
-
-
-
+    
 Feature Test 1
     Log     Doing feature 1
+
+Feature 2 Test
+     Log     Doing feature 2
+
