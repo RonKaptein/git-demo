@@ -31,7 +31,7 @@ Logged out user must sign in to check out
     Amazon.Select Product from Search Results
     Amazon.Add Product to Cart
     Amazon.Begin Checkout
-    
+
 Feature Test 1
     Log     Doing feature 1
 
