@@ -5,6 +5,9 @@ Resource  ../Resources/Common.robot
 Test Setup  Begin Web Test
 Test Teardown  End Web Test
 
+*** Variables ***
+${BROWSER} = ie
+
 
 # Copy/paste the below line to Terminal window to execute
 # pybot -d results tests/amazon.robot
